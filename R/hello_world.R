@@ -23,3 +23,16 @@ sqroot <- function(x) {
   r <- x^(1/2)
   return(r)
 }
+
+#' Square
+#'
+#' Calculate the square of a numeric value
+#' @param x the numeric value
+#' @return the square of x
+#' @examples
+#' square(22);
+#' @export
+square <- function(x) {
+  s <- x^2
+  return(s)
+}
