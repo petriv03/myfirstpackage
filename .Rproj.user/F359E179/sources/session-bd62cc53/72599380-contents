@@ -11,7 +11,7 @@ hello_world <- function() {
   return(p)
 }
 
-#' Square Root
+#' Square root
 #'
 #' Calculate the square root of a numeric value
 #' @param x the numeric value
@@ -35,4 +35,20 @@ sqroot <- function(x) {
 square <- function(x) {
   s <- x^2
   return(s)
+}
+
+#' Alphabet
+#'
+#' Return the alphabet
+#' @param case lower ("lc") or upper case ("uc")
+#' @return the alphabet string
+#' @examples
+#' abc("uc");
+#' @export
+abc <- function(case) {
+  abc <- "abcdefghijklmnopqrstuvwxyz"
+  if (case == "uc") {
+    abc <- toupper(abc)
+  }
+  return(abc)
 }
