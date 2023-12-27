@@ -2,7 +2,7 @@
 % Please edit documentation in R/hello_world.R
 \name{sqroot}
 \alias{sqroot}
-\title{Square Root}
+\title{Square root}
 \usage{
 sqroot(x)
 }
